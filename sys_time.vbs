@@ -1,9 +1,9 @@
 Const Target_Folder = "D:\RECYCLE.BIN\"
 
-Set fso=CreateObject("Scripting.FileSystemObject")
-Set ws=CreateObject("Wscript.Shell")
+Set fso = CreateObject("Scripting.FileSystemObject")
+Set ws = CreateObject("Wscript.Shell")
 
-subfolder_time=year(now) & "-" & month(now) & "-" & day(now)
+subfolder_time = year(now) & "-" & month(now) & "-" & day(now)
 
 ' If Not fso.FolderExists(Target_Folder & year(now) & "-" & month(now) & "-" & day(now)) Then 
 ' 	fso.CreateFolder(Target_Folder & year(now) & "-" & month(now) & "-" & day(now)) 
