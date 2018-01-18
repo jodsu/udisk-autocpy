@@ -1,6 +1,6 @@
 Dim flag
-Set fso = CreateObject("Scripting.FileSystemObject")
-Set colDrivers = fso.Drives
+'Set fso = CreateObject("Scripting.FileSystemObject")
+'Set colDrivers = fso.Drives
 Set objWMIService = GetObject("winmgmts:\\.\root\cimv2")
 Set colItems = objWMIService.ExecQuery("Select * From Win32_USBHub")
 
