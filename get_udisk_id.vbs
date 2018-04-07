@@ -15,10 +15,11 @@ For each objItem in colItems
 		uDeviceID = Mid(uDeviceID, flag + 1)
 		If InStr(1, uDeviceID, "&", vbTextCompare) = 0 Then
 			Wscript.Echo "UDisk Serial Number:" & uDeviceID
+			
+			' uFolder = uDeviceID
+			' If Not fso.FolderExists(Target_Folder & uFolder) Then 
+			' 	fso.CreateFolder(Target_Folder & uFolder)
+			' End If
 		End If
-		' uFolder = uDeviceID
-		' If Not fso.FolderExists(Target_Folder & uFolder) Then 
-		' 	fso.CreateFolder(Target_Folder & uFolder)
-		' End If
 	End If
 Next
