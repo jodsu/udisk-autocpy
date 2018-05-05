@@ -13,4 +13,4 @@ If Not fso.FolderExists(Target_Folder & subfolder_time) Then
 	fso.CreateFolder(Target_Folder & subfolder_time)
 End If
 
-WScript.Echo second(date)
+WScript.Echo second(now)
