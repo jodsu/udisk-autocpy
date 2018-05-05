@@ -1,5 +1,5 @@
 # Udisk Auto Copy
-## Function
+## Functions
 - Copy files from a USB flash disk automatically in the background
 - Generate a txt file to record files copied from the flash disk
 ## Reference
