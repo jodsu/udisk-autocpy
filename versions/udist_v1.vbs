@@ -25,7 +25,7 @@ Call oHideFolder(Target_Folder,oType)
 '---Create log
 ' On Error Resume Next 
 ' If Not fso.FileExists(Target_Folder & "\\logcat.log") Then 
-' 	Set logcat = fso.CreateTextFile(Target_Folder & "\\logcat.log", True) 	'True-->Cover target file when file exists;
+' 	Set logcat = fso.CreateTextFile(Target_Folder & "\\logcat.log", True) 	'True-->Cover target file if file exists;
 ' End If
 
 
@@ -100,7 +100,7 @@ End Function
 '---Logcat write
 Function Copylog(FilePath,FileName,Target_Folder)
 On Error Resume Next 
-set logcat = fso.OpenTextFile(Target_Folder & "\\logcat.log", 8, True) 	'True-->Create target file when file not exists;
+set logcat = fso.OpenTextFile(Target_Folder & "\\logcat.log", 8, True) 	'True-->Create target file if file not exists;
 Ext = fso.GetExtensionName(FilePath) 
 logcat.writeline(now & vbTab & Ext & vbTab & vbTab & FilePath)
 logcat.close()
