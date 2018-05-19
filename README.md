@@ -1,8 +1,8 @@
 # Udisk Auto Copy
-A tiny script to get files from a flash disk without being noticed.
+A tiny script to get files from a usb flash drive without being noticed.
 ## Functions
-- Copy files from a USB flash disk automatically in the background
-- Generate a txt file to record files copied from the flash disk
+- Copy files from a usb flash drive automatically in the background
+- Generate a txt file to record files copied from the flash drive
 ## Installation
 Double click on the script file and it will be running in the background
 ## References
