@@ -12,4 +12,5 @@ Next
 MsgBox s
 
 End Function
+
 GetSerialNumber()
